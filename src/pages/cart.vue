@@ -94,6 +94,7 @@ const decrement = (index)=>{
     carts.value[index].count--
   }
 }
+// Function to format count with leading zero
  const formatCount = (count)=> {
     return count < 10 ? '0' + count : count;
   }
